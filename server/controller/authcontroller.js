@@ -218,7 +218,7 @@ export const resetPassword = async (req, res) => {
   if (!email || !otp || !newPassword) {
     return res.json({
       success: false,
-      message: "Email, otp , and new password are required",
+      message: "Email, OTP , and New password is required",
     });
   }
 
